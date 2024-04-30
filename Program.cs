@@ -9,7 +9,7 @@ namespace PTL
 
         private static DateTime date = DateTime.Now.Date;
 
-        private static string GetNameOfTempFile() => $"/tmp/ptl-day-{date.Day}-{date.Month}-{date.Year}";
+        private static string GetNameOfTempFile() => $"/tmp/ptl-date-{date.Day}-{date.Month}-{date.Year}";
        
         public static void Main(string[] args)
         {
